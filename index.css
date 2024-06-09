@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    background: url("frendo.jpeg");
+    background-repeat: no-repeat;
+}
+h6{
+    color: white;
+}
+form{
+    height: 350px;
+    width: 90%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+    margin-left: 4%;
+    background: #467cd298;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 5px 30px  black;
+    
+}
+form input{
+    width: 90%;
+    font-size: 1.5em;
+    text-transform: lowercase;
+    text-align: center;
+}
+button{
+    width: 30%;
+    border: 1px solid black;
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+     body {
+         background: ;
+     }
+     form{
+    height: 1000px;
+    width: 90%; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2%;
+    margin-left: 4%;
+    background: #467cd298;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 1px 5px 30px  black;
+    
+}
+  form input{
+      font-size: 2em;
+  }
+  button{
+      height: 5%;
+      font-size: 2em;
+  }
+    
+}
